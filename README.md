@@ -1,26 +1,26 @@
-# Expense Tracker 🧾💰
+# Expense Tracker
 
 A full-stack expense tracking application with a **FastAPI REST backend** and **Tkinter GUI frontend**. Features JWT authentication, SQLAlchemy ORM, PostgreSQL support, and comprehensive REST APIs.
 
-## 🚀 Features
+## Features
 
 ### Backend (FastAPI)
-- ✅ **REST API** with FastAPI framework
-- ✅ **JWT Authentication** - Secure user authentication and authorization
-- ✅ **SQLAlchemy ORM** - Database abstraction layer
-- ✅ **PostgreSQL Support** - Production-ready database (SQLite for development)
-- ✅ **Pydantic Validation** - Request/response validation
-- ✅ **Swagger Documentation** - Interactive API docs at `/docs`
-- ✅ **CRUD Operations** - Complete REST endpoints for expenses
+- **REST API** with FastAPI framework
+- **JWT Authentication** - Secure user authentication and authorization
+- **SQLAlchemy ORM** - Database abstraction layer
+- **PostgreSQL Support** - Production-ready database (SQLite for development)
+- **Pydantic Validation** - Request/response validation
+- **Swagger Documentation** - Interactive API docs at `/docs`
+- **CRUD Operations** - Complete REST endpoints for expenses
 
 ### Frontend (Tkinter GUI)
-- ✅ **Desktop Application** - User-friendly GUI
-- ✅ **API Integration** - Consumes REST APIs
-- ✅ **Expense Management** - Add, edit, delete expenses
-- ✅ **Visualization** - Pie chart for category-wise expense distribution
-- ✅ **Real-time Updates** - Auto-refresh expense list and totals
+- **Desktop Application** - User-friendly GUI
+- **API Integration** - Consumes REST APIs
+- **Expense Management** - Add, edit, delete expenses
+- **Visualization** - Pie chart for category-wise expense distribution
+- **Real-time Updates** - Auto-refresh expense list and totals
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 ExpenseTracker/
@@ -45,13 +45,13 @@ ExpenseTracker/
 └── README.md               # This file
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - PostgreSQL (optional, SQLite works for development)
 - pip (Python package manager)
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -95,7 +95,7 @@ The application uses SQLite by default. No additional configuration needed.
 
 3. The database tables will be created automatically on first run.
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Start the API Server
 
@@ -219,7 +219,7 @@ DELETE /api/expenses/{expense_id}
 Authorization: Bearer <token>
 ```
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Using Swagger UI
 1. Start the API server
@@ -266,28 +266,28 @@ See `TESTING.md` for comprehensive testing guide and `POSTMAN_COLLECTION.json` f
 
 ## 📝 Key Features Implementation
 
-### Phase 1: FastAPI REST API ✅
+### Phase 1: FastAPI REST API 
 - Created REST endpoints for all CRUD operations
 - Implemented Pydantic models for request/response validation
 - Added Swagger documentation
 
-### Phase 2: SQLAlchemy ORM ✅
+### Phase 2: SQLAlchemy ORM 
 - Replaced raw SQLite queries with SQLAlchemy ORM
 - Created database models and CRUD functions
 - Maintained backward compatibility
 
-### Phase 3: PostgreSQL Support ✅
+### Phase 3: PostgreSQL Support 
 - Added environment variable configuration
 - Support for both SQLite and PostgreSQL
 - Database URL configuration via `.env`
 
-### Phase 4: JWT Authentication ✅
+### Phase 4: JWT Authentication 
 - User registration and login endpoints
 - JWT token generation and validation
 - Protected expense endpoints
 - User-specific expense isolation
 
-## 🔐 Security Features
+## Security Features
 
 - **JWT Authentication** - Secure token-based authentication
 - **Password Hashing** - Bcrypt password hashing
@@ -295,7 +295,7 @@ See `TESTING.md` for comprehensive testing guide and `POSTMAN_COLLECTION.json` f
 - **Input Validation** - Pydantic models validate all inputs
 - **CORS Support** - Configurable CORS middleware
 
-## 📊 Database Schema
+## Database Schema
 
 ### Users Table
 ```sql
@@ -321,7 +321,7 @@ CREATE TABLE expenses (
 );
 ```
 
-## 🎯 Usage Example
+## Usage Example
 
 1. **Start API Server**
    ```bash
@@ -341,7 +341,7 @@ CREATE TABLE expenses (
 
 6. **Visualize** - Click "Show Pie Chart" to see category distribution
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### API Server Won't Start
 - Check if port 8000 is available
@@ -358,13 +358,13 @@ CREATE TABLE expenses (
 - Token expires after 30 minutes - login again if needed
 - Check token format in Authorization header
 
-## 📚 API Documentation
+## API Documentation
 
 Full interactive API documentation is available at:
 - **Swagger UI**: `http://localhost:8000/docs`
 - **ReDoc**: `http://localhost:8000/redoc`
 
-## 🎓 Learning Resources
+## Learning Resources
 
 This project demonstrates:
 - REST API design with FastAPI
@@ -374,11 +374,11 @@ This project demonstrates:
 - API client patterns
 - Environment-based configuration
 
-## 👩‍💻 Author
+## Author
 
 Built by SNEHA GUPTA
 
-## 📄 License
+## License
 
 This project is open source and available for learning purposes.
 
@@ -386,13 +386,13 @@ This project is open source and available for learning purposes.
 
 ## 🎉 Project Highlights
 
-✅ **FastAPI Backend** - Modern REST API framework  
-✅ **SQLAlchemy ORM** - Database abstraction  
-✅ **JWT Authentication** - Secure user authentication  
-✅ **PostgreSQL Support** - Production-ready database  
-✅ **Pydantic Validation** - Request/response validation  
-✅ **Swagger Documentation** - Interactive API docs  
-✅ **GUI Frontend** - Tkinter desktop application  
-✅ **API Integration** - GUI consumes REST APIs  
+**FastAPI Backend** - Modern REST API framework  
+**SQLAlchemy ORM** - Database abstraction  
+**JWT Authentication** - Secure user authentication  
+**PostgreSQL Support** - Production-ready database  
+**Pydantic Validation** - Request/response validation  
+**Swagger Documentation** - Interactive API docs  
+**GUI Frontend** - Tkinter desktop application  
+**API Integration** - GUI consumes REST APIs  
 
 This project is now aligned with backend developer requirements and demonstrates full-stack development skills!
